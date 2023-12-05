@@ -1,0 +1,8 @@
+version: "1.0"
+
+services:
+  application:
+    build: ./
+    container_name: "trasfer"
+    ports:
+      - 5500:5500
